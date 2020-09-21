@@ -8,11 +8,11 @@ if total_terms <= 0:
     print("Please enter a positive integer: ")
 
 elif total_terms == 1:
-    print("Sequence: ", total_terms, ":")
+    print("Series: ", total_terms, ":")
     print(a)
 
 else:
-    print("Sequence: ")
+    print("Series: ")
     while count < total_terms:
         print(a)
         sum = a + b
